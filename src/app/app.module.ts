@@ -6,6 +6,7 @@ import { NavegacionComponent } from './navegacion.component';
 import { NavComponent } from './nav/nav.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { ListaEventosComponent } from './lista-eventos/lista-eventos.component';
 
 
 
@@ -13,7 +14,8 @@ import { MaterialModule } from './material/material.module';
   declarations: [
     AppComponent,
     NavegacionComponent,
-    NavComponent
+    NavComponent,
+    ListaEventosComponent
   ],
   imports: [
     BrowserModule,
